@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    margin: 80px auto;
+    width: 80%; /* Adjusted width */
+    max-width: 600px; /* Set a maximum width */
+    border-radius: 20px;
+}
+
+img {
+    margin: 0;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.text {
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+    font-family: "Young Serif", serif;
+}
+
+.box {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    width: 100%;
+    padding: 5px;
+    height: 100%;
+}
+
+.prep {
+    color: hsl(332, 51%, 32%);
+}
+
+.list2 {
+    padding-bottom: 21px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+}
+
+ol {
+    padding-bottom: 21px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row-gap: 10px;
+}
+
+.nutrition div {
+    padding-bottom: 10px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.n1, .n2, .n3, .n4 {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+@media (min-width: 360px) and (max-width:600px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        border-radius: 0;
+    }
+
+    body {
+        width: 100%;
+    }
+}
